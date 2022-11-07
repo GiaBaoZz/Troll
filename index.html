@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+   <div class='box-troll'>
+      <span>Cậu Thông minh hay Nguuu</span>
+     <div class='box'>
+     <button id="yes">Thông minh</button>
+      <button  id="no">Nguuu</button>
+   </div>
+   </div>
+
+   <script>
+      var yes = document.getElementById("yes");
+var no =document.getElementById("no");
+
+no.addEventListener("click", myFunction);
+function myFunction(){
+ alert('Mình Biết Mà ahihi')
+}
+
+yes.addEventListener("mouseover",lovefunction);
+function lovefunction(){
+   yes.classList.toggle('move')
+}
+
+   </script>
+</body>
+</html>
