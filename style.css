@@ -27,12 +27,12 @@ span{
    position: absolute;
   top: 30%;
   left: 25%;
-  text-align: center;
+  left: 500px;
   display: block;
   margin-bottom: 8px;
   font-size: 20px;
   color: #fff;
-  text-transform: uppercase;
+ 
   font-weight: bold;
 }
 .move{
